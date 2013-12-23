@@ -185,7 +185,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
+<!--			<plugin>
 				<artifactId>maven-eclipse-plugin</artifactId>
 				<version>${maven-eclipse-plugin.version}</version>
 				<inherited>true</inherited>
@@ -193,7 +193,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadoc>false</downloadJavadoc>
 				</configuration>
-			</plugin>
+			</plugin> -->
 			<plugin>
 				<groupId>org.mortbay.jetty</groupId>
 				<artifactId>maven-jetty-plugin</artifactId>
